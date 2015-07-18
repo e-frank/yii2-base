@@ -1,0 +1,16 @@
+{
+    "name":        "e-frank/yii2-base",
+    "description": "Javascript configuration helpers",
+    "keywords":    ["yii2", "javascript"],
+    "type":        "yii2-extension",
+    "license":     "BSD-3-Clause",
+    "authors": [
+        {
+            "name":     "Elmar Frank",
+            "homepage": "http://efrank.at"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "x1\\base\\": "" }
+    }
+}
