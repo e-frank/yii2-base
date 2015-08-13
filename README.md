@@ -1,2 +1,3 @@
 # yii2-base
-Very basic helpers
+Gets browser locale and locale date format.
+Adds some very basic JS extensions

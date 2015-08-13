@@ -1,13 +1,13 @@
 {
     "name":        "e-frank/yii2-base",
-    "description": "Javascript configuration helpers",
+    "description": "Basic Javascript configuration helpers and locale detection",
     "keywords":    ["yii2", "javascript"],
     "type":        "yii2-extension",
     "license":     "BSD-3-Clause",
     "authors": [
         {
             "name":     "Elmar Frank",
-            "homepage": "http://efrank.at"
+            "homepage": "http://yii.efrank.at/extension/base"
         }
     ],
     "autoload": {

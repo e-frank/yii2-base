@@ -9,11 +9,5 @@ class ConfigAsset extends \yii\web\AssetBundle
 		'config.js',
 	];
 
-	public $css        = [
-	];
-
-	public $depends = [
-		// 'x1\assets\MomentAsset',
-	];
 }
 ?>
