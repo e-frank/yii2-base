@@ -1,7 +1,6 @@
 var x1         = x1 || {};
 x1.config      = x1.config || {};
 
-console.log('base config');
 
 (function(){
 
@@ -43,8 +42,6 @@ console.log('base config');
 	//
 	var _n_ = (9876.54321).toLocaleString ? ((9876.54321).toLocaleString(l)) : '9,876.54';
 
-	console.log(l, x1.config.language, _n_, _n_.length);
-
 	x1.config.thousandsSeparator = x1.config.thousandsSeparator || fn(_n_, "9", "8") || '';
 	x1.config.decimalSeparator   = x1.config.decimalSeparator   || fn(_n_, "6", "5") || '.';
 	x1.config.decimals           = x1.config.decimals           || (_n_.length - _n_.indexOf('5')) || 2;
@@ -64,11 +61,7 @@ console.log('base config');
 			}
 		}
 
-		console.log('config', x1.config);
-
 	}
 
 })();
 
-
-console.log('config', x1.config);
