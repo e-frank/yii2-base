@@ -1,4 +1,4 @@
-<?
+<?php
 namespace x1\base;
 
 class ConfigAsset extends \yii\web\AssetBundle
